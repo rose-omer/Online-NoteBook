@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1= title
+
+    //- Mesajlar
+    #messages
+      if success
+        p(style='color: green;')= success
+      if error
+        p(style='color: red;')= error
+
+    //- Profil güncelleme formu
+    form(action='/profile/update', method='post')
+      div
+        label(for='username') Kullanıcı Adı:
+        input(type='text', name='username', id='username', value=username, required)
+      
+      div
+        label(for='oldPassword') Eski Şifre:
+        input(type='password', name='oldPassword', id='oldPassword', required)
+      
+      div
+        label(for='newPassword') Yeni Şifre:
+        input(type='password', name='newPassword', id='newPassword', required)
+      
+      button(type='submit') Güncelle
+
+    a(href='/') Ana Sayfaya Dön
