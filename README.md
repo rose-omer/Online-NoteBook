@@ -18,3 +18,9 @@
 - login.pug: Kullanıcı giriş formunu içeren şablon.
 - profile.pug: Kullanıcı profilini görüntülemek ve güncellemek için kullanılan şablon.
 - public/: Statik dosyalar (CSS, JS, görseller).
+## Ekran Görüntüsü
+![image](https://github.com/user-attachments/assets/f7fc5ca2-9018-432c-a875-f0c876dda914)
+![image](https://github.com/user-attachments/assets/d199b92b-640d-48b0-a89d-ce6483e3d862)
+![image](https://github.com/user-attachments/assets/5f0c3773-6288-4d4c-9d88-b9bd92f2b741)
+![image](https://github.com/user-attachments/assets/98d31668-b198-4c2f-a006-4f1f849ef064)
+
